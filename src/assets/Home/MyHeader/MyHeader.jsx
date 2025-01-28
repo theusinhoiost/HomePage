@@ -12,7 +12,7 @@ export default function MyHeader() {
     <div className="collapse navbar-collapse" id="navbarColor01">
       <ul className="navbar-nav me-auto">
         <li className="nav-item">
-          <a className="nav-link active" href="#"><Link to={'/'} className="text-light link-offset-3 link-underline link-underline-opacity-0">Inicio</Link>
+          <a className="nav-link active" href="#"><Link to={'/HomePage'} className="text-light link-offset-3 link-underline link-underline-opacity-0">Inicio</Link>
             <span className="visually-hidden">(current)</span>
           </a>
         </li>
