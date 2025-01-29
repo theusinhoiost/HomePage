@@ -4,9 +4,7 @@ import MyHeader from "../Home/MyHeader/MyHeader";
 export default function Portfolio() {
   return (
     <div>
-      <MyHeader/>
-
-
+      <MyHeader/>    
       <Footer/>
     </div>
   )
