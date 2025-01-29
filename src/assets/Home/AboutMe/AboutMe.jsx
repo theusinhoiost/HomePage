@@ -2,7 +2,7 @@ function AboutMe() {
   return (
     <main>
       <div>
-        <h1 className="display-6 text-center mb-4 ">Me conheça melhor</h1>
+        <h1 className="display-6 text-center my-5">Me conheça melhor</h1>
         <div className="accordion accordion-flush" id="accordionFlushAboutMe">
           {/* Ferramentas e tecnologias */}
           <div className="accordion-item">
@@ -21,8 +21,7 @@ function AboutMe() {
             </h2>
             <div id="flush-collapseOne" className="accordion-collapse collapse">
               <div className="accordion-body bg-dark-subtle">
-                Trabalho com diversas linguagens de programação,
-                incluindo{" "}
+                Trabalho com diversas linguagens de programação, incluindo{" "}
                 <strong>TypeScript/JavaScript, PHP, HTML, CSS e Python</strong>,
                 além de ter experiência com frameworks e ferramentas como{" "}
                 <strong>React, Vue.js, Bootstrap e SASS</strong>. Tenho
@@ -81,9 +80,9 @@ function AboutMe() {
               className="accordion-collapse collapse"
             >
               <div className="accordion-body bg-dark-subtle">
-                Sou fluente em <strong>português brasileiro</strong> e{" "}
-                <strong>inglês</strong>. Atualmente, estou aprendendo{" "}
-                <strong>italiano</strong> e <strong>espanhol</strong>.
+                Sou fluente em <strong>inglês</strong>. Atualmente, estou
+                aprendendo <strong>italiano</strong> e <strong>espanhol</strong>
+                .
               </div>
             </div>
           </div>
@@ -98,11 +97,14 @@ function AboutMe() {
                 aria-expanded="false"
                 aria-controls="flush-collapseFour"
               >
-                <i className="bi bi-calendar-event me-2"></i>
-                O que pensa sobre seu futuro?
+                <i className="bi bi-calendar-event me-2"></i>O que pensa sobre
+                seu futuro?
               </button>
             </h2>
-            <div id="flush-collapseFour" className="accordion-collapse collapse">
+            <div
+              id="flush-collapseFour"
+              className="accordion-collapse collapse"
+            >
               <div className="accordion-body bg-dark-subtle">
                 Meu objetivo é me tornar um desenvolvedor altamente qualificado,
                 capaz de criar soluções que impactem positivamente a vida das
@@ -127,11 +129,14 @@ function AboutMe() {
                 Qual o seu diferencial?
               </button>
             </h2>
-            <div id="flush-collapseFive" className="accordion-collapse collapse">
+            <div
+              id="flush-collapseFive"
+              className="accordion-collapse collapse"
+            >
               <div className="accordion-body bg-dark-subtle">
                 Meu diferencial é a combinação da minha formação em{" "}
-                <strong>Biomedicina</strong> com minha sólida base em{" "}
-                <strong>Ciência da Computação</strong>, onde estou no quinto
+                <strong>biomedicina</strong> com minha sólida base em{" "}
+                <strong>ciência da computação</strong>, onde estou no quinto
                 semestre do curso. Essa interdisciplinaridade me permite aplicar
                 conhecimentos tecnológicos para resolver problemas complexos e
                 criar soluções inovadoras. Além disso, minha paixão por

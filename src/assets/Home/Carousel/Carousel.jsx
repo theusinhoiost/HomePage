@@ -1,7 +1,7 @@
 export default function Carousel() {
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-5 display-6">Principais Tecnologias e Linguagens</h2>
+      <h2 className="text-center mb-4 display-6">Principais tecnologias e linguagens</h2>
       <div id="techCarousel" className="carousel slide" data-bs-ride="carousel">
         {/* Indicadores */}
         <div className="carousel-indicators my-1">
